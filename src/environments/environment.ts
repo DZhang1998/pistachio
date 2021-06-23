@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyCvtUkd6HRMeuW0BDu6atqm5oRsfLjsvvo",
+    authDomain: "pistevo-demo.firebaseapp.com",
+    databaseURL: "https://pistevo-demo-default-rtdb.firebaseio.com",
+    projectId: "pistevo-demo",
+    storageBucket: "pistevo-demo.appspot.com",
+    messagingSenderId: "558032719062",
+    appId: "1:558032719062:web:cfc804ed60387144a6cd77",
+    measurementId: "G-T1FY8J61M4"
+  }
 };
 
 /*

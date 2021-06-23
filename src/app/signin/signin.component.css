@@ -1,0 +1,138 @@
+.siContainer {
+    width: 100%;
+    height: calc(90vh - 62px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.siContainerImg {
+    width: 100vw;
+    height: calc(100vh - 62px);
+    object-fit: cover;
+    position: absolute;
+    top: 62px;
+    z-index: 1;
+}
+
+.siBox {
+    width: 50%;
+    height: 65%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+}
+
+.siFormBox {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.siFormTitle {
+    font-family: "Nunito Sans";
+    font-size: 1.75vw;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.siFormInput {
+    width: 55%;
+    height: 4vh;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(150, 150, 150);
+    padding-left: 10px;
+    margin-bottom: 1vh;
+    font-family: "Nunito Sans";
+    font-size: 1.5vh;
+}
+
+.siFormButtonBox {
+    width: calc(55% + 14px);
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.siFormButton {
+    width: 100%;
+    height: 6vh;
+    border-radius: 3px;
+    background-color:rgb(27, 82, 163);
+    outline: none;
+    box-shadow: none;
+    border: 1px solid gray;
+    color: white;
+    font-family: "Nunito Sans";
+    font-size: 1.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+.siFormButton:hover {
+    background-color: rgb(19, 65, 134);
+    cursor: pointer;
+}
+
+.suFormButton {
+    width: 45%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(241, 146, 134);
+    outline: none;
+    box-shadow: none;
+    border: 1px solid gray;
+    color: black;
+    margin-top: 10px;
+    margin-left: 5.5%;
+}
+
+.suFormDesc {
+    text-align: center;
+    margin-top: 5vh;
+    font-family: "Nunito Sans";
+    color: gray;
+    font-size: 1.25vh;
+}
+
+.suFormLink {
+    text-align: center;
+    margin-top: 0.75vh;
+    font-family: "Nunito Sans";
+    color: gray;
+    font-size: 1.15vh;
+    text-decoration: underline;
+}
+
+.suFormLink {
+    cursor: pointer;
+}
+
+.siDescBox {
+    width: 60%;
+    height: 100%;
+    box-shadow: gray;
+}
+
+.siDescImg {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    object-fit: cover;
+    transform: scaleX(-1);
+}

@@ -1,0 +1,103 @@
+.bioBox {
+    width: 96vw;
+    height: 30vh;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.bioLeft {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bioCenter {
+    width: 64%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bioRight {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid gray;
+}
+
+.bioImg {
+    height: 80%;
+    border-radius: 50%;
+}
+
+.bioLine1 {
+    height: 25%;
+    font-size: 5vh;
+    font-weight: 900;
+    font-family: "Nunito Sans";
+    color: var(--col1);
+}
+
+.bioLine2 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bioLineHead {
+    font-size: 2vh;
+    font-family: "Nunito Sans";
+    font-weight: 800;
+}
+
+.bioLineDesc {
+    font-size: 2vh;
+    font-family: "Nunito Sans";
+}
+
+.bioGradeHead {
+    text-align: center;
+    font-size: 4vh;
+    font-family: "Nunito Sans";
+    font-weight: 800;
+}
+
+.bioGrade {
+    text-align: center;
+    font-size: 12vh;
+    font-family: "Nunito Sans";
+    font-weight: 800;
+    color: rgb(49, 126, 49);
+}
+
+.bioGradeBtn {
+    width: 30%;
+    height: 10%;
+    border-radius: 3px;
+    background-color: var(--col4);
+    text-align: center;
+    font-size: 1vh;
+    font-family: "Nunito Sans";
+    outline: none;
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+.bioGradeBtn:hover {
+    cursor: pointer;
+    background-color: var(--col3);
+}

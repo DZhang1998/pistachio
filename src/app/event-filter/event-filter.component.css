@@ -1,0 +1,50 @@
+.eventFilterBox {
+    width: 100vw;
+    height: 6vh;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--col3);
+    position: static;
+}
+
+.eventFilterTitle {
+    font-size: 2vh;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    margin: 1vw;
+}
+
+.eventFilterChecks {
+    font-size: 1.5vh;
+    font-family: "Nunito Sans";
+    margin-right: 1vw;
+}
+
+.eventFilterSearch {
+    width: 20%;
+    height: 35%;
+    margin-left: 1vw;
+    font-size: 1.5vh;
+    font-family: "Nunito Sans";
+    padding-right: 1.5vw;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.eventFilterSearch:active, .eventFilterSearch:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.searchImg {
+    width: 1.5vw;
+    position: relative;
+    right: 1.25vw;
+}
